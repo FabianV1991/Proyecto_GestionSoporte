@@ -2,7 +2,7 @@
 
 function link_kayako()
 {
-        $conexion = mysqli_connect("192.168.40.99", "kayako_inf_gest", "pv_1572@llware", "soporte");
+        $conexion = mysqli_connect("xxxxxxxxx", "xxxxxxxxx", "xxxxxx@xxxxxx", "soporte");
 
         if (!$conexion)
         {
@@ -70,7 +70,7 @@ function add_day($fecha,$oper_day)
 
 function link_psg()
 {
-    $link_psg_conn=mysqli_connect("172.18.155.166", "allware", "4llw4r3.,123", "intradb") or die ("No se puede conectar a -- $intraserver -- <br>\n");
+    $link_psg_conn=mysqli_connect("xxxxxxxx", "xxxxxxx", "xxxxxxxxxxxxx", "intradb") or die ("No se puede conectar a -- $intraserver -- <br>\n");
     if (!$link_psg_conn)
     {
             die('error al conectar: ' . mysql_error());
